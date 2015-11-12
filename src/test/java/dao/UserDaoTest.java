@@ -15,7 +15,7 @@ public class UserDaoTest {
 
 	@Test@Transient
 	public void testSelect() {
-		assertNotNull(userDao.select(1));
+		userDao.select(1);
 	}
 
 	@Test@Ignore
